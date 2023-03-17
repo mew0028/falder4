@@ -1,0 +1,32 @@
+
+repeat wait() until game:IsLoaded()
+repeat wait() local a, b = pcall(function() FarmTable = {"Christmas Present", "Mysterious Arrow", "Rokakaka", "Gold Coin", "Diamond", "Stone Mask"}
+SellTable = {"Gold Coin", "Diamond", "Stone Mask"}
+
+minplayers = 4
+maxplayers = 5
+
+hopdelay = 5 -- Change it if you want. (sec.) Supposed to be 0.
+proscam = true
+autosell = true
+autoarcade = true
+convertcandies = true
+sellwhenmax = false
+pickupdelay = 12
+
+webhookurl = "" -- not required.
+pinginwebhook = true
+
+StandFarm = {
+    ["standroll"] = true,
+    ["shiniesonly"] = false,
+    ["keepallshinies"] = false,
+    ["requiemfarm"] = fulse,
+    ["useluckys"] = true,
+    ["minarrows"] = 15,
+    ["maxpity"] = 5.0, -- Stops stand rolling at certain value of pity, 5.0 - disabled.
+
+    ["SkinsTable"] = {"King Crampus","Snake of Christmas Past", "Blade of the Exile"},
+    ["StandsTable"] = {""}
+}
+
